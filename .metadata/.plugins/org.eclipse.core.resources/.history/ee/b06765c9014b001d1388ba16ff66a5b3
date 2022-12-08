@@ -1,0 +1,10 @@
+package com.salman;
+
+public class Kaleem {
+
+	public static void main(String[] args) {
+	double c=10.5;
+	System.out.println(c);
+	}
+
+}

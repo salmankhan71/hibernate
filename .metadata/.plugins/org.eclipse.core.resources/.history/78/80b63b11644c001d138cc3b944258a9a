@@ -1,0 +1,23 @@
+package com.salman;
+
+public class StudentClass {
+	String name;
+	int prince;
+
+	public StudentClass(String n, int p) {
+		this.name = n;
+		this.prince = p;
+
+	}
+	void display() {
+		System.out.println(name+" "+prince);
+	}
+
+public static void main(String args[]) {
+Agrigation obj=new Agrigation("Salman", 24, "bhatpara");
+StudentClass studentClass=new StudentClass("Imran khan", 30);
+System.err.println("-----------Details");
+obj.printShow();
+studentClass.display();
+}
+}

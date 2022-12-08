@@ -1,0 +1,21 @@
+package com.salman;
+import java.io.*;
+public class Agrigation {
+
+	private String name;
+
+	public Agrigation(String name) {
+		super();
+		this.name = name;
+	}
+   public String get String AgrigationName () {
+	   return this.name;
+   }
+	
+	
+}
+		
+
+	
+
+

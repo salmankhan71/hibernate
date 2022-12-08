@@ -1,0 +1,27 @@
+package com.salman;
+import java.util.jar.Attributes.Name;
+
+import com.salman.Animal;
+
+public class Dog {
+	String color;
+	int price;
+	Animal animal;
+	public Dog(String color, int price,Animal animal) {
+		super();
+		this.color = color;
+		this.price = price;
+		this.animal=animal;
+	}
+	void display() {
+		System.out.println("name of animal"+" : "+ animal.name+" : "+"id of Animal" +" : "+ animal.id);
+		System.out.println("color of dog"+" : "+ color+" : "+ "price of dog"+" : "+ price);
+	}
+	
+public static void main(String[] args) {
+	Animal animal2 = new Animal(12, "Pitbull");
+	Dog dog = new Dog("Black", 5000, animal2);
+	dog.display();
+}
+
+}

@@ -1,0 +1,29 @@
+package com.salman;
+
+public class StudentClass {
+	String name;
+	int id;
+	Agrigation agrigation;
+	public StudentClass(String n, int i,Agrigation a) {
+		this.name = n;
+		this.id = i;
+        this.agrigation=a;
+	}
+	void display() {
+		System.out.println(name+" "+id);
+		System.out.println(agrigation.authorName+" "+agrigation.age+" "+agrigation.place);
+	}
+
+public static void main(String args[]) {
+Agrigation obj=new Agrigation("Salman", 24, "bhatpara");
+Agrigation obj2=new Agrigation("Kaleem",27,"Balaipur");
+StudentClass studentClass=new StudentClass("Imran khan", 30,obj);
+StudentClass studentClass2=new StudentClass("Salam khan", 22,obj2);
+
+studentClass.display();
+
+obj.printShow();
+}
+
+	
+}

@@ -1,0 +1,10 @@
+package com.salman;
+
+public class Kaleem {
+
+	public static void main(String[] args) {
+	double c=10.4;
+	System.out.println("round:" + Math.round(c));
+	}
+
+}

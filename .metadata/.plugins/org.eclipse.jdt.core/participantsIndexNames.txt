@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\lenovo\Desktop\program\Eclipse\core_java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2864076073.index
+\salman_hibernate\src\main\resources
